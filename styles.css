@@ -272,10 +272,9 @@ ul li a:hover {
 }
 
 .elements{
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #9ce7c4;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(69, 187, 128);
+  margin-left: 40px;
+  box-shadow: 10px 3px 10px rgb(0 0 0 / 0.2);
 }
