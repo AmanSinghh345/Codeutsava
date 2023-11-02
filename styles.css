@@ -129,16 +129,8 @@ header{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .overview{
-  background-image: url("illu1.png");
-  background-repeat: no-repeat;
-  background-size: 1050px;
-  background-position: 240px;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
-  width: fit-content;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .ov{
   padding-top: 300px;
@@ -230,12 +222,6 @@ ul li a:hover {
   width: fit-content;
 }
 
-#stuimg{
-  width:500px;
-  height:500px;
-  background-color: rgba(255, 255, 255, 0.371);
-  border-radius: 100px;
-}
 #overv{
   font-size: xx-large;
   padding-left: 70px;

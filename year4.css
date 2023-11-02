@@ -1,0 +1,70 @@
+body,html{
+    height: 100%;
+}
+body{
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: rgb(106, 206, 164);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@keyframes colors{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+.cursor:before{
+  content: '';
+  position: absolute;
+  background: #2696E8;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  opacity: 0.2;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
+}
+
+.content{
+    position: relative;
+}
+.bk{
+    font-size: 1.5vw;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.552);
+    padding-top: 0px !important;
+
+}
+.bksec{
+    transition: 1s ease;
+    margin: 5px;
+    padding: 10px;
+    
+}
+#item{
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin: 0;
+    font-weight: bold;
+    /* backdrop-filter: blur(20px); */
+    text-decoration: none;
+    background-color: rgba(250, 235, 215, 0.207);
+}
+.head{
+    color: white;
+}
+footer{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.551);
+ }
+@media only screen and (max-width: 600px) {
+    .head {
+        font-size: 15px;
+    }
+  }
